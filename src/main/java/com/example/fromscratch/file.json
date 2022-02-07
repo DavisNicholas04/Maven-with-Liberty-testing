@@ -1,0 +1,32 @@
+{
+  "name": "BuiltWith Trends",
+  "short_name": "BuiltWith Trends",
+  "icons": [
+    {
+      "src": "https://d28rh9vvmrd65v.cloudfront.net/img/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://d28rh9vvmrd65v.cloudfront.net/img/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "https://d28rh9vvmrd65v.cloudfront.net/img/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+
+    },
+    {
+      "src": "https://d28rh9vvmrd65v.cloudfront.net/img/maskable_icon.png",
+      "sizes": "682x682",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "start_url": "/"
+}

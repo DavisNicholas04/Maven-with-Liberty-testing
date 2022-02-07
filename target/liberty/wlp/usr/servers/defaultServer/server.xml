@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server description="Liberty server">
+    <featureManager>
+        <feature>microProfile-4.1</feature>
+    </featureManager>
+
+    <httpEndpoint httpPort="${default.http.port}"
+                  httpsPort="${default.https.port}" id="defaultHttpEndpoint"/>
+
+    <applicaitonMangaer autoExpand="true"/>
+
+    <webApplication location="starter-app.war" contextRoot="/start"/>
+</server>
+

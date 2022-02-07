@@ -1,0 +1,102 @@
+********************************************************************************
+product = Open Liberty 22.0.0.1 (wlp-1.0.60.cl220120220103-1900)
+wlp.install.dir = C:/Users/davis/Documents/guides/fromScratch/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk-11.0.8
+java.version = 11.0.8
+java.runtime = Java(TM) SE Runtime Environment (11.0.8+10-LTS)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 55588@DESKTOP-7NQNTL
+********************************************************************************
+[2/6/22, 18:47:38:396 EST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[2/6/22, 18:47:39:270 EST] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: C:\Users\davis\Documents\guides\fromScratch\target\liberty\wlp\usr\servers\defaultServer\configDropins\defaults\install_apps_configuration_1491924271.xml
+[2/6/22, 18:47:39:485 EST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.814 seconds
+[2/6/22, 18:47:39:562 EST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[2/6/22, 18:47:40:805 EST] 00000022 com.ibm.ws.config.xml.internal.ConfigEvaluator               E CWWKG0075E: The value ${default.http.port} is not valid for attribute httpPort of configuration element httpEndpoint. The validation message was: Value "${default.http.port}" is not a number..
+[2/6/22, 18:47:40:874 EST] 00000017 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=127)] I Aries Blueprint packages not available. So namespaces will not be registered
+[2/6/22, 18:47:40:876 EST] 00000019 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=127)] I Aries Blueprint packages not available. So namespaces will not be registered
+[2/6/22, 18:47:40:932 EST] 00000016 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[2/6/22, 18:47:41:102 EST] 0000001a com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[2/6/22, 18:47:41:349 EST] 00000017 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[2/6/22, 18:47:41:351 EST] 00000017 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[2/6/22, 18:47:41:353 EST] 00000017 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[2/6/22, 18:47:41:356 EST] 0000001a .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: The MicroProfile JWT version 1.1 mpConfigProxy processed successfully.
+[2/6/22, 18:47:41:356 EST] 00000019 rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5780I: The MicroProfile JWT version 1.2 mpConfigProxy processed successfully.
+[2/6/22, 18:47:41:527 EST] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0820A: The default keystore has been created using the 'keystore_password' environment variable.
+[2/6/22, 18:47:41:531 EST] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+[2/6/22, 18:47:41:542 EST] 00000030 com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[2/6/22, 18:47:41:566 EST] 00000016 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[2/6/22, 18:47:41:762 EST] 00000016 com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[2/6/22, 18:47:41:778 EST] 00000016 com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[2/6/22, 18:47:41:821 EST] 00000016 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[2/6/22, 18:47:42:119 EST] 00000016 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[2/6/22, 18:47:42:178 EST] 00000016 .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Monitoring metrics can be retrieved through mpMetrics.
+[2/6/22, 18:47:42:184 EST] 00000030 com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            A CWWKS4104A: LTPA keys created in 0.642 seconds. LTPA key file: C:/Users/davis/Documents/guides/fromScratch/target/liberty/wlp/usr/servers/defaultServer/resources/security/ltpa.keys
+[2/6/22, 18:47:42:188 EST] 00000030 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.650 seconds.
+[2/6/22, 18:47:42:507 EST] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      W CWWKZ0014W: The application starter-app could not be started as it could not be found at location starter-app.war.
+[2/6/22, 18:47:42:536 EST] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application fromScratch.
+[2/6/22, 18:47:42:537 EST] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The fromScratch application is using the loose application definition at the C:\Users\davis\Documents\guides\fromScratch\target\liberty\wlp\usr\servers\defaultServer\apps\fromScratch.war.xml location.
+[2/6/22, 18:47:42:876 EST] 00000024 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[2/6/22, 18:47:42:876 EST] 00000024 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[2/6/22, 18:47:42:875 EST] 0000003b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[2/6/22, 18:47:42:877 EST] 0000003b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[2/6/22, 18:47:42:872 EST] 0000003c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[2/6/22, 18:47:42:877 EST] 0000003c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[2/6/22, 18:47:42:915 EST] 0000003d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PrivateMicroProfileMetrics.
+[2/6/22, 18:47:42:916 EST] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[2/6/22, 18:47:42:916 EST] 0000003d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PrivateMicroProfileMetrics has been bound to default_host.
+[2/6/22, 18:47:42:916 EST] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[2/6/22, 18:47:42:921 EST] 0000003a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[2/6/22, 18:47:42:921 EST] 0000003a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[2/6/22, 18:47:42:981 EST] 0000003d com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[2/6/22, 18:47:42:981 EST] 0000002d com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[2/6/22, 18:47:42:981 EST] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[2/6/22, 18:47:43:037 EST] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[2/6/22, 18:47:43:037 EST] 00000031 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[2/6/22, 18:47:43:037 EST] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[2/6/22, 18:47:43:040 EST] 0000003d com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/6/22, 18:47:43:051 EST] 0000002b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/6/22, 18:47:43:052 EST] 00000031 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/6/22, 18:47:43:052 EST] 00000029 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/6/22, 18:47:43:053 EST] 0000002a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/6/22, 18:47:43:053 EST] 0000002d com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/6/22, 18:47:43:068 EST] 00000029 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[2/6/22, 18:47:43:214 EST] 0000003d com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.internal.private] [/metrics] [PrivateMetricsRESTProxyServlet]: Initialization successful.
+[2/6/22, 18:47:43:215 EST] 0000002d com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[2/6/22, 18:47:43:218 EST] 0000002d com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckServlet]: Initialization successful.
+[2/6/22, 18:47:43:219 EST] 0000002d com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckStartupServlet]: Initialization successful.
+[2/6/22, 18:47:43:220 EST] 00000031 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Initialization successful.
+[2/6/22, 18:47:43:220 EST] 0000002d com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[2/6/22, 18:47:43:313 EST] 0000002e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\davis\Documents\guides\fromScratch\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[2/6/22, 18:47:43:384 EST] 00000026 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application fromScratch was processed and an OpenAPI document was produced.
+[2/6/22, 18:47:43:412 EST] 00000026 org.jboss.weld.Version                                       I WELD-000900: 3.1.8 (Final)
+[2/6/22, 18:47:43:472 EST] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 1.941 seconds. SSL key file: C:/Users/davis/Documents/guides/fromScratch/target/liberty/wlp/usr/servers/defaultServer/resources/security/key.p12
+[2/6/22, 18:47:43:473 EST] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: C:/Users/davis/Documents/guides/fromScratch/target/liberty/wlp/usr/servers/defaultServer/resources/security/key.p12 of type: PKCS12
+[2/6/22, 18:47:43:576 EST] 0000001e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully processed.
+[2/6/22, 18:47:43:578 EST] 0000001e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [defaultMpJwt] was successfully processed.
+[2/6/22, 18:47:43:806 EST] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: fromScratch.
+[2/6/22, 18:47:43:806 EST] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module fromScratch has been bound to default_host.
+[2/6/22, 18:47:43:812 EST] 00000037 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/fromScratch
+[2/6/22, 18:47:43:812 EST] 00000037 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/6/22, 18:47:43:835 EST] 00000037 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application fromScratch started in 1.299 seconds.
+[2/6/22, 18:47:43:852 EST] 0000002b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\davis\Documents\guides\fromScratch\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[2/6/22, 18:47:43:924 EST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-4.1, monitor-1.0, mpConfig-2.0, mpFaultTolerance-3.0, mpHealth-3.1, mpJwt-1.2, mpMetrics-3.0, mpOpenAPI-2.0, mpOpenTracing-2.0, mpRestClient-2.0, opentracing-2.0, servlet-4.0, ssl-1.0].
+[2/6/22, 18:47:43:925 EST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 4.442 seconds.
+[2/6/22, 18:47:43:925 EST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 6.255 seconds.
+[2/6/22, 18:49:30:705 EST] 00000013 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Sunday, February 6, 2022 at 6:49 PM. The server defaultServer is shutting down.
+[2/6/22, 18:49:30:708 EST] 0000004e com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[2/6/22, 18:49:30:715 EST] 0000004e com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[2/6/22, 18:49:30:752 EST] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application fromScratch has stopped successfully.
+[2/6/22, 18:49:30:820 EST] 0000004e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Destroy successful.
+[2/6/22, 18:49:30:831 EST] 0000004e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.metrics.internal.private] [/metrics] [PrivateMetricsRESTProxyServlet]: Destroy successful.
+[2/6/22, 18:49:30:847 EST] 0000004e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckStartupServlet]: Destroy successful.
+[2/6/22, 18:49:30:847 EST] 0000004e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckReadinessServlet]: Destroy successful.
+[2/6/22, 18:49:30:847 EST] 0000004e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckLivenessServlet]: Destroy successful.
+[2/6/22, 18:49:30:848 EST] 0000004e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckServlet]: Destroy successful.
+[2/6/22, 18:49:30:933 EST] 0000004e .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2004I: All monitoring metrics were unregistered from mpMetrics.
+[2/6/22, 18:49:30:952 EST] 0000004e rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5782I: The MicroProfile JWT version 1.2 mpConfigProxy deactivated successfully.
+[2/6/22, 18:49:30:954 EST] 0000004e .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5777I: The MicroProfile JWT version 1.1 mpConfigProxy deactivated successfully.
+[2/6/22, 18:49:30:975 EST] 0000004e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: The MicroProfile JWT configuration [defaultMpJwt] was successfully deactivated.
+[2/6/22, 18:49:30:975 EST] 0000004e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5502I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully deactivated.
+[2/6/22, 18:49:31:083 EST] 0000004e com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[2/6/22, 18:49:31:093 EST] 0000004e ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[2/6/22, 18:49:31:423 EST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 1 minutes, 53.753 seconds.
