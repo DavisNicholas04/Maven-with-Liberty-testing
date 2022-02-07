@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive>
-    <dir sourceOnDisk="C:\Users\davis\Documents\guides\fromScratch\target\classes" targetInArchive="/WEB-INF/classes"/>
-    <file sourceOnDisk="C:\Users\davis\.m2\repository\org\json\json\20160810\json-20160810.jar" targetInArchive="/WEB-INF/lib/json-20160810.jar"/>
-    <file sourceOnDisk="C:\Users\davis\Documents\guides\fromScratch\target\tmp\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+    <dir sourceOnDisk="/Users/logan/Desktop/fromScratch/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/Users/logan/.m2/repository/org/json/json/20160810/json-20160810.jar" targetInArchive="/WEB-INF/lib/json-20160810.jar"/>
+    <file sourceOnDisk="/Users/logan/Desktop/fromScratch/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
 </archive>

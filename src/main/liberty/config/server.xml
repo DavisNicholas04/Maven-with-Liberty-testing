@@ -2,13 +2,15 @@
 <server description="Liberty server">
     <featureManager>
         <feature>microProfile-4.1</feature>
+        <feature>jaxrs-2.1</feature>
     </featureManager>
 
-    <httpEndpoint httpPort="${default.http.port}"
-                  httpsPort="${default.https.port}" id="defaultHttpEndpoint"/>
+    <httpEndpoint id="defaultHttpEndpoint"
+                  httpPort="${default.http.port}"
+                  httpsPort="${default.https.port}" 
+                  host="*"/>
 
     <applicaitonMangaer autoExpand="true"/>
 
-    <webApplication location="starter-app.war" contextRoot="/"/>
+    <webApplication location="fromScratch.war" contextRoot="/"/>
 </server>
-
