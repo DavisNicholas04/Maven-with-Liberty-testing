@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="io.opentracing.contrib.jaxrs2" type="repository">
+    <properties maven-id="io.opentracing.contrib:opentracing-jaxrs2:0.0.9" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/opentracing-jaxrs2-0.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opentracing-api-0.30.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opentracing-web-servlet-filter-0.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opentracing-util-0.30.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opentracing-concurrent-0.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opentracing-noop-0.30.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

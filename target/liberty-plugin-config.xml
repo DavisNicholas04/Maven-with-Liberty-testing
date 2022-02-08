@@ -23,5 +23,5 @@
     <refresh>false</refresh>
     <installAppsConfigDropins>C:\Users\davis\Documents\guides\fromScratch\target\liberty\wlp\usr\servers\defaultServer\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
     <projectType>war</projectType>
-    <projectCompileDependency>org.json:json:20160810</projectCompileDependency>
+    <projectCompileDependency>com.google.code.gson:gson:2.8.9</projectCompileDependency>
 </liberty-plugin-config>

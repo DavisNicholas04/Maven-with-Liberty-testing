@@ -5,10 +5,11 @@
     </featureManager>
 
     <httpEndpoint httpPort="${default.http.port}"
-                  httpsPort="${default.https.port}" id="defaultHttpEndpoint"/>
+                  httpsPort="${default.https.port}"
+                  id="defaultHttpEndpoint"/>
 
     <applicaitonMangaer autoExpand="true"/>
 
-    <webApplication location="starter-app.war" contextRoot="/"/>
+    <webApplication location="fromScratch.war" contextRoot="start"/>
 </server>
 
