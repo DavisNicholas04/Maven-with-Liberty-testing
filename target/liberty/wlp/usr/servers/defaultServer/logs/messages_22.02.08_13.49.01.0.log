@@ -1,0 +1,463 @@
+********************************************************************************
+product = Open Liberty 22.0.0.1 (wlp-1.0.60.cl220120220103-1900)
+wlp.install.dir = C:/Users/davis/Documents/guides/fromScratch/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk-11.0.8
+java.version = 11.0.8
+java.runtime = Java(TM) SE Runtime Environment (11.0.8+10-LTS)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 20476@DESKTOP-7NQNTL
+********************************************************************************
+[2/8/22, 13:45:41:190 EST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[2/8/22, 13:45:41:787 EST] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: C:\Users\davis\Documents\guides\fromScratch\target\liberty\wlp\usr\servers\defaultServer\configDropins\overrides\liberty-plugin-variable-config.xml
+[2/8/22, 13:45:41:927 EST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 0.907 seconds
+[2/8/22, 13:45:41:956 EST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[2/8/22, 13:45:42:160 EST] 00000019 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=127)] I Aries Blueprint packages not available. So namespaces will not be registered
+[2/8/22, 13:45:42:161 EST] 0000001a .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=127)] I Aries Blueprint packages not available. So namespaces will not be registered
+[2/8/22, 13:45:42:206 EST] 00000016 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[2/8/22, 13:45:42:331 EST] 0000001a com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[2/8/22, 13:45:42:598 EST] 00000017 rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5780I: The MicroProfile JWT version 1.2 mpConfigProxy processed successfully.
+[2/8/22, 13:45:42:600 EST] 0000001a .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: The MicroProfile JWT version 1.1 mpConfigProxy processed successfully.
+[2/8/22, 13:45:42:600 EST] 00000019 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[2/8/22, 13:45:42:603 EST] 00000019 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[2/8/22, 13:45:42:604 EST] 00000019 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[2/8/22, 13:45:42:768 EST] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0819I: The default keystore is not created because a password is not configured on the <keyStore id="defaultKeyStore"/> element, and the 'keystore_password' environment variable is not set. 
+[2/8/22, 13:45:42:810 EST] 00000016 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[2/8/22, 13:45:42:810 EST] 0000002c com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.027 seconds.
+[2/8/22, 13:45:43:030 EST] 00000016 com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[2/8/22, 13:45:43:046 EST] 00000016 com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[2/8/22, 13:45:43:088 EST] 00000016 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[2/8/22, 13:45:43:293 EST] 00000016 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[2/8/22, 13:45:43:351 EST] 00000016 .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Monitoring metrics can be retrieved through mpMetrics.
+[2/8/22, 13:45:43:655 EST] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application fromScratch.
+[2/8/22, 13:45:43:657 EST] 0000003c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The fromScratch application is using the loose application definition at the C:\Users\davis\Documents\guides\fromScratch\target\liberty\wlp\usr\servers\defaultServer\apps\fromScratch.war.xml location.
+[2/8/22, 13:45:43:929 EST] 00000039 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PrivateMicroProfileMetrics.
+[2/8/22, 13:45:43:929 EST] 00000038 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[2/8/22, 13:45:43:928 EST] 0000003a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[2/8/22, 13:45:43:929 EST] 00000036 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[2/8/22, 13:45:43:929 EST] 0000003b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[2/8/22, 13:45:43:931 EST] 0000003a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[2/8/22, 13:45:43:932 EST] 00000036 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[2/8/22, 13:45:43:931 EST] 00000039 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PrivateMicroProfileMetrics has been bound to default_host.
+[2/8/22, 13:45:43:931 EST] 00000038 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[2/8/22, 13:45:43:928 EST] 00000037 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[2/8/22, 13:45:43:932 EST] 0000003b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[2/8/22, 13:45:43:932 EST] 00000037 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[2/8/22, 13:45:43:934 EST] 0000003a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/
+[2/8/22, 13:45:43:935 EST] 00000037 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/jwt/
+[2/8/22, 13:45:43:936 EST] 0000003b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/ui/
+[2/8/22, 13:45:43:937 EST] 00000038 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/ibm/api/
+[2/8/22, 13:45:43:938 EST] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/metrics/
+[2/8/22, 13:45:43:939 EST] 00000036 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/health/
+[2/8/22, 13:45:44:008 EST] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[2/8/22, 13:45:44:008 EST] 00000042 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[2/8/22, 13:45:44:008 EST] 00000036 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[2/8/22, 13:45:44:008 EST] 00000026 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[2/8/22, 13:45:44:008 EST] 00000023 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[2/8/22, 13:45:44:008 EST] 00000043 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[2/8/22, 13:45:44:055 EST] 0000002c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/8/22, 13:45:44:087 EST] 00000043 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/8/22, 13:45:44:093 EST] 00000023 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/8/22, 13:45:44:094 EST] 00000026 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/8/22, 13:45:44:099 EST] 00000036 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/8/22, 13:45:44:101 EST] 00000042 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/8/22, 13:45:44:109 EST] 00000023 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[2/8/22, 13:45:44:258 EST] 0000002c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Initialization successful.
+[2/8/22, 13:45:44:263 EST] 00000026 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.internal.private] [/metrics] [PrivateMetricsRESTProxyServlet]: Initialization successful.
+[2/8/22, 13:45:44:269 EST] 00000036 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[2/8/22, 13:45:44:270 EST] 00000036 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckServlet]: Initialization successful.
+[2/8/22, 13:45:44:271 EST] 00000036 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckStartupServlet]: Initialization successful.
+[2/8/22, 13:45:44:272 EST] 00000036 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[2/8/22, 13:45:44:333 EST] 0000003a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\davis\Documents\guides\fromScratch\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[2/8/22, 13:45:44:493 EST] 0000003c io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application fromScratch was processed and an OpenAPI document was produced.
+[2/8/22, 13:45:44:518 EST] 0000003c org.jboss.weld.Version                                       I WELD-000900: 3.1.8 (Final)
+[2/8/22, 13:45:44:840 EST] 0000003c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: fromScratch.
+[2/8/22, 13:45:44:840 EST] 0000003c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module fromScratch has been bound to default_host.
+[2/8/22, 13:45:44:841 EST] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/start/
+[2/8/22, 13:45:44:843 EST] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/start
+[2/8/22, 13:45:44:843 EST] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/8/22, 13:45:44:870 EST] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application fromScratch started in 1.215 seconds.
+[2/8/22, 13:45:44:874 EST] 00000042 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\davis\Documents\guides\fromScratch\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[2/8/22, 13:45:44:892 EST] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9080.
+[2/8/22, 13:45:44:903 EST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-4.1, monitor-1.0, mpConfig-2.0, mpFaultTolerance-3.0, mpHealth-3.1, mpJwt-1.2, mpMetrics-3.0, mpOpenAPI-2.0, mpOpenTracing-2.0, mpRestClient-2.0, opentracing-2.0, servlet-4.0, ssl-1.0].
+[2/8/22, 13:45:44:903 EST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 2.976 seconds.
+[2/8/22, 13:45:44:904 EST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 3.884 seconds.
+[2/8/22, 13:45:48:818 EST] 00000035 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=127)] I Setting the server's publish address to be /api/
+[2/8/22, 13:45:48:876 EST] 00000035 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [fromScratch] [/start] [com.example.fromscratch.RootApplication]: Initialization successful.
+[2/8/22, 13:45:48:922 EST] 00000035 rty.opentracing.internal.OpentracingUserFeatureAccessService W CWMOT0010W: OpenTracing cannot track JAX-RS requests because an OpentracingTracerFactory class was not provided or client libraries for tracing backend are not in the class path.
+[2/8/22, 13:45:48:943 EST] 00000035 oprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl W CWPMI2005W: The MicroProfile Metrics exception mapper detected and is handling an unhandled exception from the JAX-RS application. 
+                                                                                                               java.io.IOException: Stream is closed
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.validate(HttpInputStreamImpl.java:91)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.available(HttpInputStreamImpl.java:274)
+	at com.ibm.ws.webcontainer.srt.SRTInputStream.available(SRTInputStream.java:118)
+	at java.base/java.io.FilterInputStream.available(FilterInputStream.java:167)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:284)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:274)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:45)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:36)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils$2.run(JAXRSUtils.java:1533)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1530)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1483)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processRequestBodyParameter(JAXRSUtils.java:986)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:917)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:291)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doPost(IBMRestServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2/8/22, 13:45:48:971 EST] 00000035 nliberty.opentracing.internal.OpentracingJaxRsEMCallbackImpl W CWMOT0009W: The OpenTracing exception mapper detected and is handling an unhandled exception from the JAX-RS application. 
+                                                                                                               java.io.IOException: Stream is closed
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.validate(HttpInputStreamImpl.java:91)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.available(HttpInputStreamImpl.java:274)
+	at com.ibm.ws.webcontainer.srt.SRTInputStream.available(SRTInputStream.java:118)
+	at java.base/java.io.FilterInputStream.available(FilterInputStream.java:167)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:284)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:274)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:45)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:36)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils$2.run(JAXRSUtils.java:1533)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1530)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1483)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processRequestBodyParameter(JAXRSUtils.java:986)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:917)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:291)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doPost(IBMRestServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2/8/22, 13:45:54:721 EST] 00000027 oprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl W CWPMI2005W: The MicroProfile Metrics exception mapper detected and is handling an unhandled exception from the JAX-RS application. 
+                                                                                                               java.io.IOException: Stream is closed
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.validate(HttpInputStreamImpl.java:91)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.available(HttpInputStreamImpl.java:274)
+	at com.ibm.ws.webcontainer.srt.SRTInputStream.available(SRTInputStream.java:118)
+	at java.base/java.io.FilterInputStream.available(FilterInputStream.java:167)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:284)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:274)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:45)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:36)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils$2.run(JAXRSUtils.java:1533)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1530)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1483)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processRequestBodyParameter(JAXRSUtils.java:986)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:917)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:291)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doPost(IBMRestServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1011)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:85)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:938)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2/8/22, 13:45:54:722 EST] 00000027 nliberty.opentracing.internal.OpentracingJaxRsEMCallbackImpl W CWMOT0009W: The OpenTracing exception mapper detected and is handling an unhandled exception from the JAX-RS application. 
+                                                                                                               java.io.IOException: Stream is closed
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.validate(HttpInputStreamImpl.java:91)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.available(HttpInputStreamImpl.java:274)
+	at com.ibm.ws.webcontainer.srt.SRTInputStream.available(SRTInputStream.java:118)
+	at java.base/java.io.FilterInputStream.available(FilterInputStream.java:167)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:284)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:274)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:45)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:36)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils$2.run(JAXRSUtils.java:1533)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1530)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1483)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processRequestBodyParameter(JAXRSUtils.java:986)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:917)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:291)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doPost(IBMRestServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1011)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:85)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:938)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2/8/22, 13:47:23:477 EST] 0000004f oprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl W CWPMI2005W: The MicroProfile Metrics exception mapper detected and is handling an unhandled exception from the JAX-RS application. 
+                                                                                                               java.io.IOException: Stream is closed
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.validate(HttpInputStreamImpl.java:91)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.available(HttpInputStreamImpl.java:274)
+	at com.ibm.ws.webcontainer.srt.SRTInputStream.available(SRTInputStream.java:118)
+	at java.base/java.io.FilterInputStream.available(FilterInputStream.java:167)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:284)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:274)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:45)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:36)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils$2.run(JAXRSUtils.java:1533)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1530)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1483)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processRequestBodyParameter(JAXRSUtils.java:986)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:917)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:291)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doPost(IBMRestServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1011)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:85)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:938)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2/8/22, 13:47:23:479 EST] 0000004f nliberty.opentracing.internal.OpentracingJaxRsEMCallbackImpl W CWMOT0009W: The OpenTracing exception mapper detected and is handling an unhandled exception from the JAX-RS application. 
+                                                                                                               java.io.IOException: Stream is closed
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.validate(HttpInputStreamImpl.java:91)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInputStreamImpl.available(HttpInputStreamImpl.java:274)
+	at com.ibm.ws.webcontainer.srt.SRTInputStream.available(SRTInputStream.java:118)
+	at java.base/java.io.FilterInputStream.available(FilterInputStream.java:167)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:284)
+	at org.apache.cxf.helpers.IOUtils.toString(IOUtils.java:274)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:45)
+	at org.apache.cxf.jaxrs.provider.StringTextProvider.readFrom(StringTextProvider.java:36)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils$2.run(JAXRSUtils.java:1533)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1530)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1483)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processRequestBodyParameter(JAXRSUtils.java:986)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:917)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:291)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doPost(IBMRestServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1011)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:85)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:938)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2/8/22, 13:48:50:514 EST] 00000013 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Tuesday, February 8, 2022 at 1:48 PM. The server defaultServer is shutting down.
+[2/8/22, 13:48:50:517 EST] 00000069 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[2/8/22, 13:48:50:523 EST] 00000056 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9080.
+[2/8/22, 13:48:50:524 EST] 00000056 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/jwt/
+[2/8/22, 13:48:50:525 EST] 00000056 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/openapi/ui/
+[2/8/22, 13:48:50:525 EST] 00000056 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/metrics/
+[2/8/22, 13:48:50:525 EST] 00000056 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/health/
+[2/8/22, 13:48:50:525 EST] 00000056 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/start/
+[2/8/22, 13:48:50:525 EST] 00000056 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/openapi/
+[2/8/22, 13:48:50:525 EST] 00000056 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/ibm/api/
+[2/8/22, 13:48:51:531 EST] 00000069 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[2/8/22, 13:48:51:559 EST] 00000060 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [fromScratch] [/start] [com.example.fromscratch.RootApplication]: Destroy successful.
+[2/8/22, 13:48:51:571 EST] 00000060 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application fromScratch has stopped successfully.
+[2/8/22, 13:48:51:628 EST] 00000069 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Destroy successful.
+[2/8/22, 13:48:51:635 EST] 00000069 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.metrics.internal.private] [/metrics] [PrivateMetricsRESTProxyServlet]: Destroy successful.
+[2/8/22, 13:48:51:647 EST] 00000069 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckStartupServlet]: Destroy successful.
+[2/8/22, 13:48:51:647 EST] 00000069 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckReadinessServlet]: Destroy successful.
+[2/8/22, 13:48:51:648 EST] 00000069 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckLivenessServlet]: Destroy successful.
+[2/8/22, 13:48:51:648 EST] 00000069 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.1.internal] [/health] [HealthCheckServlet]: Destroy successful.
+[2/8/22, 13:48:51:712 EST] 00000069 .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2004I: All monitoring metrics were unregistered from mpMetrics.
+[2/8/22, 13:48:51:729 EST] 00000069 rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5782I: The MicroProfile JWT version 1.2 mpConfigProxy deactivated successfully.
+[2/8/22, 13:48:51:730 EST] 00000069 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5777I: The MicroProfile JWT version 1.1 mpConfigProxy deactivated successfully.
+[2/8/22, 13:48:51:844 EST] 00000069 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[2/8/22, 13:48:51:854 EST] 00000069 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[2/8/22, 13:48:52:131 EST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 3 minutes, 11.111 seconds.

@@ -16,7 +16,6 @@ import java.io.*;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
-
 @Path("/food")
 public class HelloResource {
 
@@ -36,10 +35,10 @@ public class HelloResource {
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
     public Response listMostRecentRecourse() {
-        Response.Status created = Response.Status.CREATED;
+        Response.Status ok = Response.Status.OK;
         String mostRecentElement = jsonArray.get(jsonArray.size() - 1).toString();
 
-        return Response.status(created).entity(mostRecentElement).build();
+        return Response.status(ok).entity(mostRecentElement).build();
     }
 
     @POST
@@ -47,7 +46,6 @@ public class HelloResource {
     @Consumes(MediaType.APPLICATION_JSON)
     public Response addToDatabase
             (String user_id, String business_id, String text, String date, int compliment_count) throws IOException {
-
         //populating my javaObject
         MyObject data = new MyObject();
             data.setUser_id(user_id);
@@ -69,7 +67,9 @@ public class HelloResource {
 //                      \\ END //
         //file.flush();
         //jsonWriter.flush();
-        return Response.status(Response.Status.OK).build();
+
+        Response.Status created = Response.Status.CREATED;
+        return Response.status(created).build();
     }
 
     public static String fileToString(File file) throws FileNotFoundException {
